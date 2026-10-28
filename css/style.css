@@ -5,7 +5,7 @@
    Black hero/nav/footer, light content sections (see bottom).
    ========================================================= */
 
-@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Questrial&family=Red+Hat+Display:wght@500;700;800&family=Tiro+Devanagari+Hindi&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Questrial&family=Red+Hat+Display:wght@500;700;800&display=swap");
 
 :root {
   --black: #000;
@@ -26,7 +26,6 @@
   --f-body: "Questrial", sans-serif;
   --f-display: "Aboreto", cursive;
   --f-redhat: "Red Hat Display", "Questrial", sans-serif;
-  --f-hindi: "Tiro Devanagari Hindi", serif;
 
   --ease: cubic-bezier(.4, 0, .2, 1);
   --ease-out: cubic-bezier(0, 0, .2, 1);
@@ -579,7 +578,6 @@ main { background: var(--cream); color: var(--ink); }
 /* =========================================================
    Ramsidh additions
    ========================================================= */
-.hindi { font-family: var(--f-hindi); }
 .hero h1 { font-size: clamp(2.25rem, 7vw, 4.75rem); line-height: 1.15; letter-spacing: 2px; }
 .page-hero h1 { font-size: clamp(2.25rem, 7vw, 4.75rem); line-height: 1.15; }
 .page-hero__sub { font-size: clamp(1.05rem, 2.2vw, 1.45rem); }
@@ -587,8 +585,6 @@ main { background: var(--cream); color: var(--ink); }
 .intro h2 { font-size: clamp(2.1rem, 4.6vw, 3.25rem); }
 .rotator-title { font-size: clamp(2.1rem, 4.5vw, 3.6rem); }
 .room-detail h2 { font-size: clamp(2rem, 4vw, 3.25rem); }
-.hero__hindi { font-family: var(--f-hindi); font-size: clamp(1.05rem, 2vw, 1.35rem); color: var(--amber-300); margin: 14px 0 0; }
-.page-hero__hindi { font-family: var(--f-hindi); font-size: clamp(1rem, 1.8vw, 1.2rem); color: #fff; margin: 10px 0 0; text-transform: none; }
 
 /* Logo mark: round gold monogram like the hotel's RS crest */
 .logo-mark { border-radius: 50%; font-family: var(--f-display); font-weight: 400; }
@@ -664,7 +660,6 @@ main { background: var(--cream); color: var(--ink); }
   .hero h1 { font-size: clamp(2rem, 9.5vw, 2.4rem); letter-spacing: 1px; line-height: 1.12; }
   .hero h1 br { display: none; }
   .logo-text small { letter-spacing: .14em; white-space: nowrap; }
-  .hero__hindi { font-size: 1rem; margin-top: 12px; }
   .hero__sub, .hero__stats { display: none; }
   .hero__actions { gap: 10px; margin-top: 22px; flex-wrap: nowrap; }
   .hero__actions a { flex: 1 1 0; padding: 12px 10px; font-size: .95rem; }
